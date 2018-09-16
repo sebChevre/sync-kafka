@@ -1,0 +1,12 @@
+kafka:
+  bootstrap-servers: localhost:9092
+
+  topic:
+    sommeDemandeeTopic: sommeDemandee
+
+    sommeCalculeeTopic: sommeCalculee
+
+  consumerGroup: calculGroup
+
+server:
+  port: 8080
